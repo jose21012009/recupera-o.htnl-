@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexões Humanas: A Força da Empatia e Cooperação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <div class="header-container">
+        <h1>Conexões Humanas</h1>
+        <p class="tagline">Transformando o mundo através da empatia e do trabalho coletivo.</p>
+    </div>
+
+    <div class="content-block">
+        <h2>O Poder da Empatia</h2>
+        <p>Empatia não é apenas se colocar no lugar do outro, mas sim compreender a dor ou a alegria de alguém sem julgamentos. Quando escolhemos ouvir ativamente, criamos pontes invisíveis que fortalecem as relações humanas e reduzem os impactos do isolamento na sociedade moderna.</p>
+    </div>
+
+    <div class="content-block">
+        <h2>Cooperação no Dia a Dia</h2>
+        <p>A cooperação acontece quando unimos habilidades individuais em prol de um objetivo comum. Diferente da competição, ela entende que o sucesso de um grupo beneficia a todos. Veja algumas formas práticas de aplicar esses conceitos na sua rotina:</p>
+        
+        <ul>
+            <li><strong>Escuta Ativa:</strong> Prestar atenção genuína ao que o outro diz, sem pensar na resposta imediata.</li>
+            <li><strong>Apoio Mútuo:</strong> Oferecer ajuda a um colega que está sobrecarregado com tarefas ou estudos.</li>
+            <li><strong>Comunicação Não-Violenta:</strong> Expressar sentimentos e necessidades de forma clara e respeitosa.</li>
+            <li><strong>Projetos Comunitários:</strong> Participar de ações locais que melhorem o ambiente e o bem-estar do seu bairro.</li>
+        </ul>
+    </div>
+
+    <div class="footer-container">
+        <p>Quer saber mais sobre o tema? Explore os links abaixo:</p>
+        <a href="https://www.cvv.org.br/" target="_blank" class="nav-link">Apoio Emocional (CVV)</a>
+        <a href="https://pt.wikipedia.org/wiki/Empatia" target="_blank" class="nav-link">História da Empatia</a>
+    </div>
+
+</body>
+</html>
