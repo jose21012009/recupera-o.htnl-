@@ -1,0 +1,111 @@
+/* Configurações Globais de Reset e Fonte */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Cor de fundo suave */
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilização da DIV do Cabeçalho */
+.header-container {
+    background-color: #1e4d4a; /* Verde-azulado escuro */
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Garante que tanto h1 quanto h2 (se usados no topo) fiquem organizados */
+.header-container h1, 
+.header-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #a3e2d7;
+}
+
+/* Estilização Geral dos Blocos de Conteúdo (DIVs) */
+.content-block {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.content-block h2 {
+    color: #1e4d4a;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 5px;
+}
+
+.content-block p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+/* Estilização da Lista (UL e LI) */
+ul {
+    list-style-type: none; /* Remove as bolinhas padrão */
+    padding-left: 10px;
+}
+
+li {
+    background-color: #f9fbfb;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #ff7a59; /* Detalhe em cor coral para destaque */
+    border-radius: 0 4px 4px 0;
+    font-size: 1rem;
+}
+
+li strong {
+    color: #1e4d4a;
+}
+
+/* Estilização do Rodapé e Links (A) */
+.footer-container {
+    background-color: #e2ebe9;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.footer-container p {
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #4a5553;
+}
+
+.nav-link {
+    display: inline-block;
+    background-color: #ff7a59; /* Botões em tom Coral */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    transform: translateY(0); /* Define o estado inicial para a animação */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Efeito ao passar o mouse nos links */
+.nav-link:hover {
+    background-color: #e05a36;
+    transform: translateY(-2px);
+}
