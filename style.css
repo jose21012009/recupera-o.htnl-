@@ -1,111 +1,110 @@
-/* Configurações Globais de Reset e Fonte */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Configurações Globais de Identidade Visual */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f7f6; /* Cor de fundo suave */
+    background-color: #f4f3ef; /* Tom areia confortável para leitura */
     color: #333333;
-    line-height: 1.6;
+    margin: 0;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-/* Estilização da DIV do Cabeçalho */
-.header-container {
-    background-color: #1e4d4a; /* Verde-azulado escuro */
-    color: #ffffff;
+/* Container de Organização do Layout */
+.main-container {
+    max-width: 800px;
+    width: 100%;
+}
+
+/* Estilização do Cabeçalho */
+.header-section {
     text-align: center;
     padding: 40px 20px;
-    border-radius: 8px;
+    background-color: #2c5d41; /* Verde oliva profundo */
+    color: #ffffff;
+    border-radius: 12px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* Garante que tanto h1 quanto h2 (se usados no topo) fiquem organizados */
-.header-container h1, 
-.header-container h2 {
+.header-section h1 {
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
 }
 
-.tagline {
-    font-style: italic;
-    color: #a3e2d7;
-}
-
-/* Estilização Geral dos Blocos de Conteúdo (DIVs) */
+/* Blocos de Conteúdo */
 .content-block {
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border-left: 6px solid #2c5d41;
+}
+
+/* Diferenciação de Cores de Fundo (Estilo Próprio) */
+.empathy-bg {
+    background-color: #ffffff;
+}
+
+.cooperation-bg {
+    background-color: #eae7dc;
+}
+
+.content-block h1 {
+    color: #2c5d41;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+/* Seção da Lista de Itens */
+.list-section {
     background-color: #ffffff;
     padding: 30px;
-    border-radius: 8px;
+    border-radius: 12px;
     margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
-.content-block h2 {
-    color: #1e4d4a;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 5px;
+.list-section h1 {
+    color: #2c5d41;
+    font-size: 1.8rem;
+    margin-top: 0;
 }
 
-.content-block p {
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-}
-
-/* Estilização da Lista (UL e LI) */
 ul {
-    list-style-type: none; /* Remove as bolinhas padrão */
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 li {
-    background-color: #f9fbfb;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-left: 5px solid #ff7a59; /* Detalhe em cor coral para destaque */
-    border-radius: 0 4px 4px 0;
-    font-size: 1rem;
+    margin-bottom: 12px;
+    line-height: 1.6;
+    color: #4a4a4a;
 }
 
-li strong {
-    color: #1e4d4a;
-}
-
-/* Estilização do Rodapé e Links (A) */
-.footer-container {
-    background-color: #e2ebe9;
+/* Personalização dos Links e Botões */
+.footer-links {
     text-align: center;
-    padding: 30px 20px;
-    border-radius: 8px;
-    margin-top: 20px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
 }
 
-.footer-container p {
-    margin-bottom: 15px;
-    font-weight: bold;
-    color: #4a5553;
-}
-
-.nav-link {
+.btn-link {
     display: inline-block;
-    background-color: #ff7a59; /* Botões em tom Coral */
+    padding: 12px 24px;
+    margin: 10px;
     color: #ffffff;
+    background-color: #2c5d41;
     text-decoration: none;
-    padding: 10px 20px;
-    margin: 5px 10px;
-    border-radius: 20px;
+    border-radius: 25px;
     font-weight: bold;
-    transform: translateY(0); /* Define o estado inicial para a animação */
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease;
 }
 
-/* Efeito ao passar o mouse nos links */
-.nav-link:hover {
-    background-color: #e05a36;
-    transform: translateY(-2px);
+.btn-link:hover {
+    background-color: #1e3f2c;
+}
+
+.btn-link.secondary {
+    background-color: #8e8d8a;
+}
+
+.btn-link.secondary:hover {
+    background-color: #6e6d6a;
 }
